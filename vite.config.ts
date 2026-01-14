@@ -6,8 +6,6 @@ export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, ".", "");
 
   return {
-    // ✅ Required for GitHub Pages project sites:
-    // https://<username>.github.io/<repo>/
     base: "/verlora_webpage/",
 
     server: {
